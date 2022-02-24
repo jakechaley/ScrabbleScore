@@ -38,6 +38,7 @@ namespace ScrabbleScore.TestTools
       Scrabble newWord = new Scrabble();
       Assert.AreEqual(5, newWord.WordScore("dog"));
       Assert.AreEqual(41, newWord.WordScore("OXYPHENBUTAZONE"));
+      
     }
     
   }
