@@ -31,6 +31,13 @@ namespace ScrabbleScore.TestTools
       Assert.AreEqual(newWord.LetterScore("j"), 8);
       Assert.AreEqual(newWord.LetterScore("q"), 10);
     }
+
+    [TestMethod]
+    public void ArrayScore_FindTheScrabbleScoreOfWord_Int()
+    {
+      Scrabble newWord = new Scrabble();
+      Assert.AreEqual(4, newWord.ArrayScore("dog"));
+    }
     
   }
 }

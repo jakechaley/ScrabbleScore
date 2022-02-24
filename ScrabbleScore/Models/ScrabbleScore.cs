@@ -45,5 +45,10 @@ namespace ScrabbleScore.Models
         return 0;
       }
     }
+
+    public int ArrayScore(string word)
+    {
+      return 0;
+    }
   }
 }
