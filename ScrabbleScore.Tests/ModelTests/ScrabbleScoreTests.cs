@@ -36,7 +36,8 @@ namespace ScrabbleScore.TestTools
     public void ArrayScore_FindTheScrabbleScoreOfWord_Int()
     {
       Scrabble newWord = new Scrabble();
-      Assert.AreEqual(5, newWord.ArrayScore("dog"));
+      Assert.AreEqual(5, newWord.WordScore("dog"));
+      Assert.AreEqual(41, newWord.WordScore("OXYPHENBUTAZONE"));
     }
     
   }

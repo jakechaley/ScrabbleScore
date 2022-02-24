@@ -46,7 +46,7 @@ namespace ScrabbleScore.Models
       }
     }
 
-    public int ArrayScore(string word)
+    public int WordScore(string word)
     {
       int TotalScore = 0;
       char[] array = SplitUserWord(word);
