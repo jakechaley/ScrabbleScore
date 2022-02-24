@@ -9,6 +9,11 @@ namespace ScrabbleScore.Models
       char[] array = word.ToLower().ToCharArray();
       return array;
     }
+
+    public int LetterScore(string letter)
+    {
+      return 0;
+    }
   }
   
 }
